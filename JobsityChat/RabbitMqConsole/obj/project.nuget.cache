@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "DbTjvvo8XKKHZa52H2QHG66WZqebPDn69fIA3JRcMRQTix6p6JWjBVl+tHGtHlPMoT7c7dGwTUvij4YO/Qxtig==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\RabbitMqConsole\\RabbitMqConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lu4ca\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\lu4ca\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\lu4ca\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
