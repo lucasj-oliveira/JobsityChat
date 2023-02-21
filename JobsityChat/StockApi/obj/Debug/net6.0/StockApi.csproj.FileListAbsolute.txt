@@ -75,6 +75,8 @@ C:\Users\lu4ca\Documents\repos\JobsityChat\JobsityChat\StockApi\bin\Debug\net6.0
 C:\Users\lu4ca\Documents\repos\JobsityChat\JobsityChat\StockApi\bin\Debug\net6.0\StockApi.pdb
 C:\Users\lu4ca\Documents\repos\JobsityChat\JobsityChat\StockApi\bin\Debug\net6.0\CsvHelper.dll
 C:\Users\lu4ca\Documents\repos\JobsityChat\JobsityChat\StockApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\lu4ca\Documents\repos\JobsityChat\JobsityChat\StockApi\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\lu4ca\Documents\repos\JobsityChat\JobsityChat\StockApi\bin\Debug\net6.0\RabbitMQ.Client.dll
 C:\Users\lu4ca\Documents\repos\JobsityChat\JobsityChat\StockApi\bin\Debug\net6.0\RestSharp.dll
 C:\Users\lu4ca\Documents\repos\JobsityChat\JobsityChat\StockApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\lu4ca\Documents\repos\JobsityChat\JobsityChat\StockApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll

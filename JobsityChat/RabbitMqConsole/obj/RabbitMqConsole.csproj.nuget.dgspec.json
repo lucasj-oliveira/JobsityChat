@@ -4,14 +4,14 @@
     "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\RabbitMqConsole\\RabbitMqConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\RabbitMqConsole\\RabbitMqConsole.csproj": {
+    "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\JobsityChat\\JobsityChat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\RabbitMqConsole\\RabbitMqConsole.csproj",
-        "projectName": "RabbitMqConsole",
-        "projectPath": "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\RabbitMqConsole\\RabbitMqConsole.csproj",
+        "projectUniqueName": "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\JobsityChat\\JobsityChat.csproj",
+        "projectName": "JobsityChat",
+        "projectPath": "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\JobsityChat\\JobsityChat.csproj",
         "packagesPath": "C:\\Users\\lu4ca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\RabbitMqConsole\\obj\\",
+        "outputPath": "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\JobsityChat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lu4ca\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,37 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "RabbitMQ.Client": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
@@ -57,6 +85,161 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\RabbitMqConsole\\RabbitMqConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\RabbitMqConsole\\RabbitMqConsole.csproj",
+        "projectName": "RabbitMqConsole",
+        "projectPath": "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\RabbitMqConsole\\RabbitMqConsole.csproj",
+        "packagesPath": "C:\\Users\\lu4ca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\RabbitMqConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lu4ca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\JobsityChat\\JobsityChat.csproj": {
+                "projectPath": "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\JobsityChat\\JobsityChat.csproj"
+              },
+              "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\StockApi\\StockApi.csproj": {
+                "projectPath": "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\StockApi\\StockApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\StockApi\\StockApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\StockApi\\StockApi.csproj",
+        "projectName": "StockApi",
+        "projectPath": "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\StockApi\\StockApi.csproj",
+        "packagesPath": "C:\\Users\\lu4ca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lu4ca\\Documents\\repos\\JobsityChat\\JobsityChat\\StockApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lu4ca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

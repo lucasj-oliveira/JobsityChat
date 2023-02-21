@@ -38,9 +38,10 @@ export class HomeComponent implements OnInit {
         this.chatService.broadcastMessage(this.msgDto);
         this.botService.getStockPrice(this.msgDto.msgText.replace('/stock=',''));        
         this.msgDto.msgText = '';
-      }
+      } else {
         this.chatService.broadcastMessage(this.msgDto);
         this.msgDto.msgText = '';
+      }
     }
   }
 

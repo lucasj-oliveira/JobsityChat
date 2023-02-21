@@ -18,16 +18,8 @@ export class BotService {
   public getStockPrice(stockName: string) {
     var msgDto = new MessageDto();
     msgDto.user = 'bot';
-    this.http.get<string>(this.GET_URL  + "/Bot?stockCode=" + stockName).subscribe(
-      data => 
-      {
-        debugger;
-        msgDto.msgText =  stockName.toUpperCase() + ' quote is $' + data.toString() + ' per share.';
-        this.chatService.broadcastMessage(msgDto);
-      }
-      );
-      
-    
+    debugger;
+    this.http.get<string>(this.GET_URL  + "/Bot?stockCode=" + stockName).subscribe();
   }
 
 

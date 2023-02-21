@@ -44,6 +44,14 @@
               "target": "Package",
               "version": "[30.0.1, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
             "RestSharp": {
               "target": "Package",
               "version": "[108.0.3, )"

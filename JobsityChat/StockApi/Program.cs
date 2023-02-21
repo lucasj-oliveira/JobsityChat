@@ -1,5 +1,10 @@
+using StockApi.RabbitMQ;
+using StockApi.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped<IBotService, BotService>();
+builder.Services.AddScoped<IRabbitMQProducer, RabbitMQProducer>();
 builder.Services.AddControllers();
 
 builder.Services.AddCors(options =>

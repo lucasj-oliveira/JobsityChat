@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using RestSharp;
+using StockApi.Services;
 
 namespace StockApi.Controllers
 {
@@ -7,24 +8,16 @@ namespace StockApi.Controllers
     [Route("[controller]")]
     public class BotController : ControllerBase
     {
-        private readonly ILogger<BotController> _logger;
-
-        public BotController(ILogger<BotController> logger)
+        private IBotService _botService;
+        public BotController(IBotService botService)
         {
-            _logger = logger;
+            _botService = botService;
         }
 
         [HttpGet (Name = "GetStock")]
-        public async Task<string> GetAsync(string stockCode)
+        public async Task GetAsync(string stockCode)
         {
-            var client = new RestClient($"https://stooq.com/q/l/?s={stockCode.ToLower()}&f=sd2t2ohlcv&h&e=csv");
-            RestRequest request = new RestRequest()
-            {
-                Method = Method.Post            
-            };
-            RestResponse response = await client.ExecuteAsync(request);
-            string[] splitedResponse = response.Content.Split(',');
-            return splitedResponse[13];
+            await _botService.GetStockPrice(stockCode); 
         }
     }
 }

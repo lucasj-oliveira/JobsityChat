@@ -234,7 +234,6 @@ C:\Users\lu4ca\Documents\repos\JobsityChat\JobsityChat\JobsityChat\bin\Debug\net
 C:\Users\lu4ca\Documents\repos\JobsityChat\JobsityChat\JobsityChat\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\lu4ca\Documents\repos\JobsityChat\JobsityChat\JobsityChat\bin\Debug\net6.0\Mono.TextTemplating.dll
 C:\Users\lu4ca\Documents\repos\JobsityChat\JobsityChat\JobsityChat\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\lu4ca\Documents\repos\JobsityChat\JobsityChat\JobsityChat\bin\Debug\net6.0\RabbitMQ.Client.dll
 C:\Users\lu4ca\Documents\repos\JobsityChat\JobsityChat\JobsityChat\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\lu4ca\Documents\repos\JobsityChat\JobsityChat\JobsityChat\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\lu4ca\Documents\repos\JobsityChat\JobsityChat\JobsityChat\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll

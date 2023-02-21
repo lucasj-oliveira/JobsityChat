@@ -1,5 +1,5 @@
-﻿using JobsityChat.Hubs;
-using JobsityChat.ReqDto;
+﻿using JobsityChat.Domain;
+using JobsityChat.Hubs;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 
