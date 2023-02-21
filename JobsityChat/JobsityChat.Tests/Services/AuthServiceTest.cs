@@ -45,7 +45,7 @@ namespace JobsityChat.Test.Services
             Assert.True(response.Status != "Error");
         }
 
-
+        //Had a hard time trying to mock this :/
         private Mock<UserManager<IdentityUser>> CreateUserManager()
         {
 
